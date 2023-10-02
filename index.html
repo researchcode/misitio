@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+
+    <!-- Enlace a Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        /* Estilo para el menú */
+        nav {
+            background-color: #58B2AF;
+        }
+        .navbar-nav {
+            text-align: left;
+        }
+        .navbar-nav a {
+            color: white;
+        }
+
+        /* Estilo para el jumbotron */
+        .jumbotron {
+            background-image: url("https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg");
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding: 100px;
+            background-attachment: fixed;
+        }
+        .jumbotron h1 {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        /* Estilo para el contenido principal */
+        .content {
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Estilo para el video */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="equipo.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <h1>Mi Sitio Web</h1>
+</div>
+
+<div class="container content">
+    <h2>Contenido Principal</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Nullam vestibulum metus nec maximus facilisis.</p>
+    <p>Aliquam in lacus ut sapien interdum iaculis.</p>
+    
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K5pkkuiyRzk" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!-- Enlace a Bootstrap JS y jQuery CDN (opcional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
